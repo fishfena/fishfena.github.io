@@ -1,7 +1,7 @@
 # fishfena.github.io
-This is basically the worst HTML code for a webpage that you will ever find. 
-It was trial and error, every single time. A lot of Googling before ChatGPT and AI appeared in my life.
-I learnt, therefore, I enjoyed it.
+This is probably, one of the worst HTML code for a webpage that you will ever find. 
+It its always trial and error, every single time. Also a lot of Googling and ChatGPT. 
 All the pictures here are of my authorship. Acknowledge it if you use it for something. 
-If that something is a publication saying that it's yours, then, don't, because that's cheating.
-You can always contact me. I don't bite. Except if I bite???
+:) best fishies
+feña 
+<º)>« 
