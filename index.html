@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>feña by @fishfena</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		/* Keep your intro before-style hook */
+		.intro h1:before { content: ''; }
+
+        /* Hero banner like before (rectangle overlay with lab name & tagline) */
+        .hero{ background: url('img/bg.jpg') center/cover no-repeat; min-height: 55vh; display: flex; align-items: center; }
+        .hero .overlay{ background: rgba(0,0,0,.75); padding: 40px; border-radius: 12px; }
+        .hero h1, .hero p{ color: #fff; margin: 0; }
+        .hero h1{ font-size: 44px; margin-bottom: 10px; }
+        .hero p{ font-size: 18px; }
+
+        /* Make page a bit wider on desktop (matches your previous tweak) */
+        @media (min-width: 900px){ .container{ max-width: 960px; } }
+        @media (min-width: 1200px){ .container{ max-width: 1040px; } }
+
+        /* Nav: keep links on the left */
+        .main-nav .navbar.item-nav ul{ display:flex; justify-content:flex-start; gap:14px; }
+
+        /* Intro portrait sizing/alignment */
+        .intro .unit-20 img{ width:180px; height:180px; border-radius:50%; object-fit:cover; display:block; }
+        .intro .unit-20{ padding-right:20px; }
+        @media (max-width: 767px){ .intro .unit-20{ padding-right:0; } }
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo"></span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#achievements">Research</a></li>
+				        <li><a href="#skills">Publications</a></li>
+						<li><a href="why-pupfishes.html">Why pupfishes?</a></li>
+
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+    <!-- Hero banner with rectangle overlay (kept) -->
+    <section class="hero">
+      <div class="container">
+        <div class="overlay">
+          <h1>Craniofacial Evo‑Devo in Fast‑Evolving Fishes</h1>
+          <p>Studying how genomes orchestrate rapid craniofacial and sensory divergence using <em>Cyprinodon</em> pupfishes.</p>
+        </div>
+      </div>
+    </section>
+
+	<!-- Introduction -->
+<div class="intro section" id="about">
+  <div class="container">
+    <h2>M. Fernanda Palominos, Ph.D.</h2>
+
+    <div class="units-row units-split wrap">
+      <div class="unit-20">
+        <img src="img/ava.jpg" alt="Avatar">
+      </div>
+      <div class="unit-80">
+        <p>
+          I am a developmental and evolutionary biologist studying how genomes orchestrate divergent craniofacial 
+          and sensory morphologies. For that, I have developed a research program using <i>Cyprinodon</i> 
+          pupfishes from San Salvador Island, Bahamas, one of the fastest-evolving vertebrate adaptive radiations,
+          as a novel model for biomedical research and developmental biology.<b> 
+          <a href="why-pupfishes.html">Pupfishes</a> exhibit strikingly different craniofacial morphologies 
+          despite minimal genetic differentiation, providing a powerful system to dissect the mechanisms of rapid phenotypic change.</b> 
+          My interdisciplinary approach bridges development, evolution, morphology, and functional genomics.
+        </p>
+
+        <!-- Small space here -->
+        <p style="margin-top: 12px;">
+          I am based at the Museum of Vertebrate Zoology and the Department of Integrative Biology of the University of California, Berkeley. 
+          My research is funded by a 
+          <b style="color: #e8e6d9 !important;">K99/R00 Pathway To Independence Award from the National Institute of Dental and Craniofacial Research.</b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Research (stacked sections) -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h3>Research</h3>
+			<ul class="award-list list-flat">
+				<li>
+					<h4>1. Craniofacial function of novel adaptive craniofacial genes</h4>
+					<p> We use in <i>situ</i> hybridization chain reaction to investigate differential expression of novel 
+						craniofacial genes during development in generalist and specialist pupfishes, revealing their
+						contributions to phenotypic divergence. 
+						<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10598438/">Our work</a>
+						on the regulatory region of <i>galr2</i> in San Salvador Island pupfishes links sequence 
+						variation to spatial expression differences. Additional peptide inhibition experiments 
+						uncovered its novel role in oral jaw elongation</p> 
+				</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>
+					<h4>2. Integration of tissue-specific transcriptomics and genomics to study craniofacial divergence</h4>
+					<p>By integrating tissue-specific transcriptomics and speciation genomics, I identified fourteen novel 
+						candidate craniofacial genes in specialists that are exclusively expressed in craniofacial tissues
+						at hatching—the earliest stage of morphological divergence—and carry differentiated regulatory mutation
+						s between species. We validated differential expression in the pharyngeal arches and craniofacial muscles
+						of scale-eaters versus generalists for two novel genes, <i>pycr3</i> and <i>atp8a1</i>. 
+						You can read the <a href="https://www.biorxiv.org/content/10.1101/2024.10.02.616385v1">pre-print here</a>.</p> 
+				</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>
+					<h4>3. Functional Genomics</h4>
+					<p>We are actively generating targeted mutants using CRISPR-Cas9 to dissect the functional roles of
+						candidate genes, and creating precise knock-in reporter lines
+						to visualize their spatial and temporal expression <i>in vivo</i>. These resources will enable direct 
+						testing of gene function and real-time tracking of developmental processes at the cellular, tissue,
+						and organismal level resolution.</p> 
+				</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>
+					<h4>4. Transcriptional regulation and Chromatin dynamics</h4>
+					<p>My future lab will profile tissue-specific chromatin states across San Salvador Island and outgroup pupfishes 
+						using ATAC-seq to reveal changes in chromatin accessibility linked to tissue- 
+						and species-specific gene expression, shedding light on how regulatory variation drives divergent craniofacial
+						developmental pathways.</p> 
+				</li>
+			</ul>
+
+		</div>
+	</div>
+
+	<!-- Publications -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h3>Selected Publications</h3>
+			<ul class="skill-list list-flat">
+				<li>A list of all ny publications in this <a href= "https://scholar.google.com/citations?user=sqoejbkAAAAJ&hl=es&oi=ao">link</a></li><br>
+				<li><b><u>Palominos M.F.</u></b>, Muhl, V., Richards, E.J., Miller, C.T., Martin, C.H. <b>(2023)</b> Jaw size variation is 
+					associated with a novel craniofacial function for galanin receptor 2 in an adaptive radiation of pupfishes. 
+					<a href="https://royalsocietypublishing.org/doi/10.1098/rspb.2023.1686"> <i>Proc. R. Soc. B. </i>290:20231686.</a></li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li></li>
+				<li><b><u>Palominos M.F.</u></b>, Calfun, C., Nardocci, G., Candia, D., Torres-Paz, J., Whitlock, K. <b>(2022)</b> The olfactory organ is a site for 
+					resident neutrophils in the brain. <a href="https://www.frontiersin.org/articles/10.3389/fimmu.2022.881702/full"> <i>Front. Immunol. </i>13:881702.</a></li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li></li>
+				<li>Whitlock, K.E., <b> <u>Palominos, M.F.</u> (2022) </b> The olfactory tract: Basis for future evolution in response to rapidly changing ecological 
+					niches.<a href="https://www.frontiersin.org/articles/10.3389/fnana.2022.831602/full"> <i>Front. Neuroanat.</i> 16:831602.</a></li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li></li>
+				<li><b><u>Palominos, M.F.</u></b>, Whitlock, K.E. <b>(2021)</b> The olfactory organ is populated by neutrophils and macrophages during early development.
+					<a href= "https://www.frontiersin.org/articles/10.3389/fcell.2020.604030/full"><i>Front. Cell & Dev. Biol.</i> 8:604030.</a></li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li></li>
+				<li>Manterola, M.*, <b><u>Palominos, M.F.*</u></b>, Calixto, A. <b>(2021)</b> The heritability of behaviors associated 
+				with the intestinal microbiota. <a href= "https://www.frontiersin.org/articles/10.3389/fimmu.2021.658551/full"><i>Front. Immunol.</i></a> 12:1497, *: co-first authors.</li>
+				
+			</ul>
+			<ul class="skill-list list-flat">
+				<li></li>
+				<li><b><u>Palominos, M.F.</u></b>, et al. <b>(2017)</b> Transgenerational diapause as an avoidance strategy against 
+					bacterial pathogens in <i>Caenorhabditis elegans</i>.<a href="https://journals.asm.org/doi/10.1128/mBio.01234-17">
+					<i> mBio</i></a> 8:e01234-17.</li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<!-- Quote removed; hero banner is used instead -->
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Last update: 09/2025</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:pety.dic@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="https://www.youtube.com/watch?v=mZsLYcCEurM"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/m-fernanda-fe%C3%B1a-palominos-90651b25b/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/fishfena/"><i class="fa fa-github"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["far northern sky", "your galaxy", "everywhere"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
